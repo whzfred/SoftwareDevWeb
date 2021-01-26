@@ -1,0 +1,13 @@
+p {
+  font-size: 100%;
+  color: dimgray;
+}
+
+p.info {
+  color: green;		
+}
+
+h1 {
+	font-size: 150%;
+	color: blue;
+}
