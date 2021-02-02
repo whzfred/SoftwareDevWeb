@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			function displayInput() {
+				var name = document.getElementById("inputName").value;
+				document.getElementById("addTextHere").innerHTML = "Name is: " + name;
+			}
+		</script>
+	<head/>
+	<body>
+		<h1>Input Demo</h1>
+
+		<input type="text" enter placeholder="Type your name..." id= "inputName">
+		<button type="button"  onclick="displayInput()">Click me</button>
+
+		<p id="addTextHere"></p>
+	</body>
+</html>
